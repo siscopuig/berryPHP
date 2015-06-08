@@ -1,0 +1,26 @@
+php_flag display_errors on
+php_value error_reporting 9999
+
+Options -MultiViews
+
+# Turn on the engine:
+RewriteEngine On
+
+# Set the base to this directory
+RewriteBase /mvc/
+
+
+# Redirect certain paths to index.php:
+
+# Uncomment the lines below to make them effective:
+# RewriteRule ^ (about|contact|this|that|search)/?$ index.php?p=$1
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+# to restric access to public folder /public/
+# RewriteRule ^(.*) public/$1 [L]

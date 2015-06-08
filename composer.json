@@ -1,0 +1,9 @@
+{
+  "require-dev": {
+    "phpmailer/phpmailer": "~5.2"  },
+  "autoload": {
+    "psr-4": {
+      "": ["app/libs/", "app/models/"]
+    }
+  }
+}
