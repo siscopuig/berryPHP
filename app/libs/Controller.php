@@ -3,6 +3,7 @@
 class Controller
 {
     public $model_filename;
+    public $model;
 
 	function __construct()
 	{
@@ -48,9 +49,4 @@ class Controller
         $split_model_name = explode('Controller', $name);
         return $this->model_filename = $split_model_name[0];
     }
-
-
-
-
-
 }

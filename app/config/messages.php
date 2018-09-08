@@ -1,7 +1,4 @@
 <?php
-/*
- *
- * */
 
 return array(
     'MESSAGE_USERNAME_OR_PASSWORD_FIELD_EMPTY'=> 'Username or Password field empty',

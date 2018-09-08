@@ -1,4 +1,5 @@
 <?php
+
 /*
  * http://whatismyipaddress.com/smtp -> some info about SMTP
  * http://phpmailer.github.io/PHPMailer/classes/PHPMailer.html

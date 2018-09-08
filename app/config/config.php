@@ -56,7 +56,4 @@ return array(
     'EMAIL_FROM_NAME' => 'minimalMVC',
     'EMAIL_FROM_SUBJECT' => 'Account activation for minimalMVC',
     'EMAIL_FROM_CONTENT' => 'Please click on this link to activate your account: ',
-
-
-
 );

@@ -8,7 +8,6 @@ class UserController extends Controller
 	public function __construct() 
 	{
 		parent::__construct();
-
 	}
 
     /**
@@ -19,7 +18,7 @@ class UserController extends Controller
 	{
         Auth::checkAuthentication();
         $this->view->render('user/index', array(
-            'users' => $this->{'model'}->showUsersData()
+            'users' => $this->model->showUsersData()
         ));
     }
 
