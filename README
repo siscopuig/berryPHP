@@ -1,14 +1,1 @@
-psr-4 Composer Autoloading
-
-for a complete information: http://www.php-fig.org/psr/psr-4/
-
-create a json file called "composer.json"
-
-- check if composer is already installed. Composer must be installed globally.
-- Choose with Finder "New terminal at folder" to have access within directory to composer.
-- Create a directory "Vendor" with Terminal. Write "mkdir Vendor" in Terminal.
-- Create a index.php in main directory with the rest directories and files.
-- In Terminal write "composer install" to install dependencies.
-
-- After any update in your code use "composer dump-autoload -o" in Terminal.
-- Also you can use "composer update"
+This Readme file will be updated anytime soon.
